@@ -16,7 +16,6 @@ import PriceChangeIcon from '../icons/PriceChangeIcon.vue'
       </div>
 
       <button id="toggle-navbar" onclick="toggleNavbar()">
-        <img src="./assets/img/global/navbar-times.svg" alt="" />
       </button>
     </RouterLink>
 
@@ -67,84 +66,73 @@ import PriceChangeIcon from '../icons/PriceChangeIcon.vue'
 
     <h5 class="font-bold text-lg mt-7">Toko</h5>
     <RouterLink to="/toko/zona" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/settings.svg" alt=""> -->
-
       <DashboardIcon/>
       <span>Zona</span>
     </RouterLink>
 
     <RouterLink to="/toko/geofencing" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
+      
 
       <DashboardIcon/>
 
       <span>Geofencing</span>
     </RouterLink>
     <RouterLink to="/toko/akun-toko" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
+      
       <DashboardIcon/>
       <span>Akun Toko</span>
     </RouterLink>
 
     <RouterLink to="/toko/membership-toko" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
+      
       <PriceChangeIcon/>
       <span>Membership Toko</span>
     </RouterLink>
 
     <RouterLink to="/toko/stock" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
+      
       <CarbonProductIcon/>
       <span>Stock</span>
       <!-- NOTED: ADDING DROPDOWN MENU ITEM : BANNER, DISKON, PROMO -->
     </RouterLink>
 
     <RouterLink to="/toko/human-resource" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
+      
       <PriceChangeIcon/>
       <span>Human Resource</span>
     </RouterLink>
 
     <h5 class="font-bold text-lg mt-7">Driver</h5>
     <RouterLink to="/toko/driver" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/settings.svg" alt=""> -->
-
       <DashboardIcon/>
 
       <span>Zona</span>
     </RouterLink>
 
     <RouterLink to="/toko/aktifitas-order" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
+      
       <CarbonProductIcon/>
       <span>Aktifitas Order</span>
     </RouterLink>
     
     <h5 class="font-bold text-lg mt-7">Pengguna</h5>
     <RouterLink to="/pengguna/akun-pengguna" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/settings.svg" alt=""> -->
-
       <DashboardIcon />
       <span>Akun Pengguna</span>
     </RouterLink>
 
     <RouterLink to="/pengguna/membership-pengguna" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
-
       <CarbonProductIcon />
       <span>Membership Pengguna</span>
     </RouterLink>
 
     <h5 class="font-bold text-lg mt-7">Customer Service</h5>
     <RouterLink to="/customer-service/komplain" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/settings.svg" alt=""> -->
-
       <DashboardIcon />
       <span>Komplain</span>
     </RouterLink>
 
     <RouterLink to="/customer-service/aktifitas-order" class="sidebar-item" onclick="toggleActive(this)">
-      <!-- <img src="./assets/img/global/log-out.svg" alt=""> -->
       <CarbonProductIcon />
       <span>Aktifitas Order</span>
     </RouterLink>
