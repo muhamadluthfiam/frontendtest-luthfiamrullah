@@ -1,5 +1,5 @@
 <template>
-  <!-- <header>
+  <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -8,15 +8,9 @@
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header> -->
+  </header>
 
-  <div class="row">
-      <div class="col-12 col-lg-3 col-navbar d-none d-xl-block">
-        <Sidebar />
-
-      </div>
-  </div>
-
+  <Sidebar />
   <RouterView />
 </template>
 

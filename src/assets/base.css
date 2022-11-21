@@ -39,18 +39,25 @@ aside #toggle-navbar {
 }
 
 .sidebar-item {
-  text-decoration: none;
+  margin-top: 10px;
+  width: 182px;
   display: block;
   background: transparent;
-  border-radius: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
-/* .sidebar-item.active {
+
+.sidebar-membership-item {
+  display: block;
+  background: transparent;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebar-item.active {
   background: #4640DE;
-} */
+}
 .sidebar-item.active span {
   color: #fff;
 }
@@ -66,9 +73,7 @@ aside #toggle-navbar {
   stroke: #ABB3C4;
 }
 .sidebar-item span {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
+   /* identical to box height */
   color: #121F3E;
 }

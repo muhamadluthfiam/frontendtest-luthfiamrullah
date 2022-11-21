@@ -1,6 +1,7 @@
 <script setup>
 import DashboardIcon from '../icons/DashboardIcon.vue'
 import CarbonProductIcon from '../icons/CarbonProductIcon.vue'
+import CarbonProductMembershipIcon from '../icons/CarbonProductMembershipIcon.vue'
 import PriceChangeIcon from '../icons/PriceChangeIcon.vue'
 
 </script>
@@ -120,10 +121,15 @@ import PriceChangeIcon from '../icons/PriceChangeIcon.vue'
       <DashboardIcon />
       <span>Akun Pengguna</span>
     </RouterLink>
-
-    <RouterLink to="/pengguna/membership-pengguna" class="sidebar-item" onclick="toggleActive(this)">
-      <CarbonProductIcon />
+    
+    <RouterLink to="/pengguna/akun-pengguna" class="sidebar-item" onclick="toggleActive(this)">
+      <CarbonProductMembershipIcon/>
       <span>Membership Pengguna</span>
+    </RouterLink>
+
+    <RouterLink to="/pengguna/membership-pengguna" class="sidebar-membership-item" onclick="toggleActive(this)">
+      <!-- <CarbonProductIcon/> -->
+      <!-- <span>Membership Pengguna</span> -->
     </RouterLink>
 
     <h5 class="font-bold text-lg mt-7">Customer Service</h5>
