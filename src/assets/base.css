@@ -84,3 +84,11 @@ aside #toggle-navbar {
   display: grid;
   grid-template-columns: 182px auto;
 }
+
+.card {
+  width: 100%;
+  padding: 27px;
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
