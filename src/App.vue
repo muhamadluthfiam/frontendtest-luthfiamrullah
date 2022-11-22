@@ -1,22 +1,28 @@
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+  <div id="main">
+    <!-- Sidebar -->
+    <div class="relative h-full min-h-screen">
+      <Sidebar />
     </div>
-  </header>
 
-  <Sidebar />
-  <RouterView />
+    <!-- Content -->
+    <div class="h-full">
+      <div class="text-center text-grey-darkest ml-[182px]">
+        <!-- Navbar -->
+        <!-- w-[1658px] -->
+        <Header />
+        <!-- content -->
+        <main>
+          <RouterView />
+        </main>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Sidebar from './components/layout/Sidebar.vue'
-
+import { RouterLink, RouterView } from "vue-router";
+import Sidebar from "./components/layout/Sidebar.vue";
+import Header from "./components/layout/Header.vue"
 </script>
 

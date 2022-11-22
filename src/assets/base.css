@@ -4,7 +4,7 @@ html, body {
   font-style: normal;
   background-color: #F8F8FA;
   /* overflow-x: hidden; */
-  position: relative;
+  /* position: relative; */
 }
 
 #toggle-navbar {
@@ -22,12 +22,13 @@ aside {
   padding: 10px 40px;
   position: fixed;
   /* overflow-y: scroll; */
-  top: 0;
-  left: 0;
-  z-index: 2;
+  /* top: 0; */
+  /* left: 0; */
+  /* z-index: 2; */
   height: 100%;
   overflow: auto;
 }
+
 aside #toggle-navbar {
   margin-left: 20px;
 }
@@ -76,4 +77,10 @@ aside #toggle-navbar {
   font-size: 16px;
    /* identical to box height */
   color: #121F3E;
+}
+
+
+#main {
+  display: grid;
+  grid-template-columns: 182px auto;
 }

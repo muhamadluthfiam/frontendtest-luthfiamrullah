@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <main>
     <aside class="sidebar">
       <Navigation />
     </aside>
-  </div>
+  </main>
 </template>
 <script setup>
 import Navigation from './Navigation.vue'
