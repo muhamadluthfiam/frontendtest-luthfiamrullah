@@ -7,7 +7,7 @@
         </div>
         <hr class="h-full" />
         <div class="flex justify-between p-2">
-          
+          <!-- diagram here -->
         </div>
       </div>
     </div>
