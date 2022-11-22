@@ -86,8 +86,17 @@ aside #toggle-navbar {
 }
 
 .card {
-  width: 100%;
-  padding: 27px;
+  width: 379px;
+  height: auto;
+  /* padding: 10px; */
+  background: #fff;
+  border-radius: 12px;
+  /* margin-bottom: 14px; */
+}
+
+.diagram {
+  width: 500px;
+  height: 300px;
   background: #fff;
   border-radius: 12px;
   margin-bottom: 14px;

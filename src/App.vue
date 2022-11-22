@@ -6,15 +6,13 @@
     </div>
 
     <!-- Content -->
-    <div class="h-full">
+    <div class="">
       <div class="text-center text-grey-darkest ml-[182px]">
         <!-- Navbar -->
         <!-- w-[1658px] -->
         <Header />
         <!-- content -->
-        <main>
-          <RouterView />
-        </main>
+        <RouterView />
       </div>
     </div>
   </div>
