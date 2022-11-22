@@ -16,7 +16,7 @@
     <div class="flex items-center">
       <form
         action=""
-        class="2xl:w-[526px] 2xl:h-[35px] mr-5 px-3 flex items-center outline-1 outline"
+        class="w-[526px] h-[35px] mr-5 px-3 flex items-center outline-1 outline"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
