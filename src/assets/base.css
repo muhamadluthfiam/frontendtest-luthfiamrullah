@@ -21,10 +21,6 @@ aside {
   background-color: #fff;
   padding: 10px 40px;
   position: fixed;
-  /* overflow-y: scroll; */
-  /* top: 0; */
-  /* left: 0; */
-  /* z-index: 2; */
   height: 100%;
   overflow: auto;
 }
@@ -57,14 +53,24 @@ aside #toggle-navbar {
   justify-content: flex-start;
 }
 .sidebar-item.active {
-  background: #4640DE;
+  background: #fff;
 }
 .sidebar-item.active span {
-  color: #fff;
+  color: #EC1C24;
 }
-.sidebar-item.active svg path {
-  stroke: #fff;
+
+.sidebar-item.active .polygon {
+  width: 20px;
+  height: 76px;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 565px;
+  border-top: 40px solid transparent;
+	border-left: 25px solid #EC1C24;
+	border-bottom: 40px solid transparent;
 }
+
 .sidebar-item svg {
   width: 18px;
   height: 18px;
